@@ -1,0 +1,27 @@
+#N canvas 1775 1156 338 204 10;
+#X obj 67 6 tgl 15 0 empty \$1-on\$3 empty 17 7 0 10 -258113 -1 -1
+1 1;
+#X obj 34 121 spigot;
+#X obj 34 75 bng 15 250 50 0 empty \$1-puls empty 17 7 0 10 -262144
+-1 -1;
+#X obj 34 97 pack \$3 f f f f;
+#X obj 82 57 unpack f f f f;
+#X floatatom 154 90 5 0 0 0 - - -, f 5;
+#X floatatom 173 116 5 0 0 0 - - -, f 5;
+#X floatatom 210 129 5 0 0 0 - - -, f 5;
+#X floatatom 239 151 5 0 0 0 - - -, f 5;
+#X obj 34 141 s \$1-\$2-route;
+#X obj 82 37 r \$1-\$2-p\$3;
+#X connect 0 0 1 1;
+#X connect 1 0 9 0;
+#X connect 2 0 3 0;
+#X connect 3 0 1 0;
+#X connect 4 0 3 1;
+#X connect 4 0 5 0;
+#X connect 4 1 3 2;
+#X connect 4 1 6 0;
+#X connect 4 2 3 3;
+#X connect 4 2 7 0;
+#X connect 4 3 3 4;
+#X connect 4 3 8 0;
+#X connect 10 0 4 0;
