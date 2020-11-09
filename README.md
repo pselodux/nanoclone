@@ -1,2 +1,4 @@
 # nanoclone
- nanoloop clone for puredata
+
+### Description
+Nanoloop clone for Pure Data. Still a work-in-progress!
